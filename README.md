@@ -1,3 +1,11 @@
+This is a fork of Unlegacy-Android which aims to bring new life to old android devices.
+
+I own a Samsung Galaxy Tab 2 released in 2012, and i refuse to throw it away just because of old software.
+At this point: many thanks to the original project. :)
+
+This fork uses a slightly modded Kernel for the Galaxy Tab 2 which overclocks its CPU from original 1008 MHz to 1350 MHz, which makes the device very more useable.
+
+
 Getting Started
 ---------------
 
@@ -14,8 +22,8 @@ Then to sync up:
     
     
     
-Example:
---------
+Example for device espresso (Samsung Galaxy Tab 2):
+---------------------------------------------------
 1. Setting Up Environment 
 
 ```
@@ -53,12 +61,11 @@ repo sync
 6. Build your ROM
 ```
 source build/envsetup.sh 
-breakfast espresso
+breakfast espresso # or other devicename of your choice
 ./extract-files.sh 
 export USE_CCACHE=1 
 export LC_ALL=C  # needed under Ubuntu 18.04 / Linux Mint 19 or newer
 prebuilts/misc/linux-x86/ccache/ccache -M 50G 
 croot 
-brunch espresso
-
+brunch espresso # or other devicename of your choice
 ```
