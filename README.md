@@ -16,6 +16,7 @@ Basic requirements:
   - a lot of free disk space (repository will use up to 200 GB)
   - a linux environment (as main OS or in a VM)
 - knowledge about linux and the command line
+- an unlimitied fast internet access.
 - you'll need to get familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using theese trees, use a command like this:
@@ -30,15 +31,13 @@ Then to sync up:
     
 Example for device espresso (Samsung Galaxy Tab 2):
 ---------------------------------------------------
-1. Setting Up Environment 
-
+1. Setting Up Environment
 ```
 sudo apt-get install openjdk-8-jdk 
 sudo apt-get update && sudo apt-get install git-core gnupg flex bison gperf libsdl1.2-dev libesd0-dev libwxgtk2.8-dev squashfs-tools build-essential zip curl libncurses5-dev zlib1g-dev openjdk-8-jre openjdk-8-jdk pngcrush schedtool libxml2 libxml2-utils xsltproc lzop libc6-dev schedtool g++-multilib lib32z1-dev lib32ncurses5-dev lib32readline-gplv2-dev gcc-multilib maven tmux screen w3m ncftp 
 ```
 
 2. Initializing Repo
-
 ```
 mkdir ~/bin 
 PATH=~/bin:$PATH
@@ -46,15 +45,13 @@ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/rep
 chmod a+x ~/bin/repo 
 ```
 
-3. Make Folders 
-
+3. Make Folders
 ```
 mkdir unlegacyandroid_8.1
 cd unlegacyandroid_8.1 
 ```
 
-4. Initialize ROM REPO 
-
+4. Initialize ROM REPO
 ```
 repo init -u git://github.com/derCo0n/android.git -b aosp-8.1
 ```
@@ -63,6 +60,7 @@ repo init -u git://github.com/derCo0n/android.git -b aosp-8.1
 ```
 repo sync
 ```
+grab a coffee or two and wait for it to finish...
 
 6. Build your ROM
 ```
@@ -75,3 +73,7 @@ prebuilts/misc/linux-x86/ccache/ccache -M 50G
 croot 
 brunch espresso # or other devicename of your choice
 ```
+grab some more coffee's and wait for it to finish...this can take some time depending on your CPU, Cache, RAM and Storage capabilities.
+
+7. Flash your new ROM
+- via custom recovery like TWRP
