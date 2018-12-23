@@ -41,7 +41,7 @@ sudo apt-get update && sudo apt-get install git-core gnupg flex bison gperf libs
 
 ```
 mkdir ~/bin 
-PATH=~/bin:$PATH (oder PATH=/media/co0n/7a59f274-2a0c-4233-a4bf-03233b45a7e9/android-builds/bin:$PATH)
+PATH=~/bin:$PATH
 curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo 
 chmod a+x ~/bin/repo 
 ```
