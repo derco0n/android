@@ -8,9 +8,15 @@ This fork uses a slightly modded Kernel for the Galaxy Tab 2 which overclocks it
 
 Getting Started
 ---------------
-
-To get started with Android, you'll need to get
-familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+Basic requirements:
+- some time
+- A computer with
+  - some CPU-Cores (the more the better)
+  - enough RAM (the more the better, i'm fine with 16GB), 
+  - a lot of free disk space (repository will use up to 200 GB)
+  - a linux environment (as main OS or in a VM)
+- knowledge about linux and the command line
+- you'll need to get familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using theese trees, use a command like this:
 
