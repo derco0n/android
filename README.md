@@ -12,7 +12,7 @@ Basic requirements:
 - some time
 - A computer with
   - some CPU-Cores (the more the better)
-  - enough RAM (the more the better, i'm fine with 16GB), 
+  - enough RAM (the more the better, i'm fine with 16 GB), 
   - a lot of free disk space (repository will use up to 200 GB)
   - a linux environment (as main OS or in a VM)
 - knowledge about linux and the command line
