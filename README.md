@@ -77,3 +77,7 @@ grab some more coffee's and wait for it to finish...this can take some time depe
 
 7. Flash your new ROM
 - via custom recovery like TWRP
+
+8. Flash other things (GAPPS, MAgisk, etc. ) as you like
+
+9. Don't forget to wipe your DALVIK/cache
