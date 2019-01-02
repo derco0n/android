@@ -14,10 +14,7 @@
   <!-- espresso -->
   <project path="device/samsung/espresso" name="derco0n/android_device_samsung_espresso" remote="unlegacy" groups="omap4,device,samsung,espresso" />
   <project path="device/samsung/espresso3g" name="Unlegacy-Android/android_device_samsung_espresso3g" remote="unlegacy" groups="omap4,device,samsung,espresso" />
-  
-  <!-- p4 -->
-  <project path="device/samsung/p4" name="derco0n/android_device_samsung_p4-common" remote="unlegacy" groups="p4,device,samsung" />
-
+    
   <!-- nookhd -->
   <project path="kernel/bn/omap" name="Unlegacy-Android/android_kernel_bn_omap" remote="unlegacy" revision="stable" groups="omap4,kernel,bn,nookhd" />
   <project path="hardware/ti/wlan" name="Unlegacy-Android/android_hardware_ti_wlan" remote="unlegacy" revision="stable" groups="pdk,omap4,wlan" />
