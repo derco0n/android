@@ -10,7 +10,7 @@
    
 
     <!-- <project path="vendor/samsung/p4wifi" name="derco0n/android_vendor_samsung_p4wifi" remote="unlegacy" revision="aosp-nougat" /> -->
-    <project path="vendor/samsung/p4" name="derco0n/android_vendor_samsung_p4" remote="unlegacy" revision="aosp-nougat" />
+    <project path="vendor/samsung/p4" name="derco0n/android_vendor_samsung_p4" remote="unlegacy" revision="aosp-7.1-dev" />
 	<!-- <project path="vendor/decatf" name="android_vendor_decatf" remote="decatf" revision="aosp-7.1" /> -->
 
 </manifest>
