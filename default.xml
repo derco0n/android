@@ -22,7 +22,7 @@
   <include name="devices/qcom.xml" />
   <include name="devices/tegra3.xml" />
   <include name="devices/tegra132.xml" />
-  <include name="devices/p4.xml" />
+  
 
   <!-- Security Updates -->
   <include name="android-security.xml" />
