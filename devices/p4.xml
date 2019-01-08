@@ -4,12 +4,12 @@
     <project path="kernel/samsung/p4" name="derco0n/android_kernel_samsung_p4" remote="unlegacy" revision="aosp-ng-dev" />
 
     <project path="device/samsung/p4-common" name="derco0n/android_device_samsung_p4-common" remote="unlegacy" revision="aosp-7.1" />
-    <project path="device/samsung/p4wifi" name="derco0n/android_device_samsung_p4wifi" remote="unlegacy" revision="aosp-nougat" />
-    <project path="device/samsung/p4" name="derco0n/android_device_samsung_p4" remote="unlegacy" revision="aosp-nougat" />
+    <!-- <project path="device/samsung/p4wifi" name="derco0n/android_device_samsung_p4wifi" remote="unlegacy" revision="aosp-nougat" /> -->
+    <!-- <project path="device/samsung/p4" name="derco0n/android_device_samsung_p4" remote="unlegacy" revision="aosp-nougat" /> -->
     <project path="device/samsung/p4tmo" name="derco0n/android_device_samsung_p4tmo" remote="unlegacy" revision="aosp-nougat" />
    
 
-    <project path="vendor/samsung/p4wifi" name="derco0n/android_vendor_samsung_p4wifi" remote="unlegacy" revision="aosp-nougat" /> 
+    <!-- <project path="vendor/samsung/p4wifi" name="derco0n/android_vendor_samsung_p4wifi" remote="unlegacy" revision="aosp-nougat" /> -->
     <project path="vendor/samsung/p4" name="derco0n/android_vendor_samsung_p4" remote="unlegacy" revision="aosp-nougat" />
 	<!-- <project path="vendor/decatf" name="android_vendor_decatf" remote="decatf" revision="aosp-7.1" /> -->
 
